@@ -1,5 +1,6 @@
 import Encryption from "@/Components/main/Encryption";
 import Hero from "@/Components/main/Hero";
+import Projects from "@/Components/main/Projects";
 import Skills from "@/Components/main/Skills";
 import { h1, main } from "framer-motion/client";
 import Image from "next/image";
@@ -11,6 +12,7 @@ export default function Home() {
     <Hero />
     <Skills/>
     <Encryption/>
+    <Projects/>
   </div>
 </main>
   );
